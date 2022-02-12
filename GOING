@@ -1,5 +1,3 @@
-local plr = game:GetService("Players").LocalPlayer
-if plr:IsInGroup("13526071") then
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mapple7777/UI-Librarys/main/UI-1/UI.lua"))()
 --local Whitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/silentgod145/whitelist/main/whitelist",true))()
@@ -257,5 +255,4 @@ game.Players.LocalPlayer.Character.Humanoid.Jump = false
 wait(1)
 end
 end)
-    plr:Kick("Not Whitelisted")
-end
+
