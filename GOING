@@ -3,7 +3,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mappl
 
  local Window = Library:Create("Paid Going Hub","discord")
 
-local Tab1 = Window:Tab("scripts",true)
+local Tab1 = Window:Tab("⭐Lock⭐",true)
 
 Tab1:Button("Silent Aim and Aim Lock hold e to aim lock doe",function(bool)
  loadstring(game:HttpGet("https://pastebin.com/raw/M3nt5Dad" ))() 
@@ -15,11 +15,52 @@ end)
 
 local Tab2 = Window:Tab("clientside",true)
 
+Tab2:Button("Playful Cs",function(bool)
+local player = game.Players.LocalPlayer.Character
+
+if player:findFirstChild("Humanoid") then
+    player.Head.face.Texture = "http://www.roblox.com/asset/?id=2409281591"
+end
+)
+
+Tab2:Button("BeastMode red Cs",function(bool)
+local player = game.Players.LocalPlayer.Character
+
+if player:findFirstChild("Humanoid") then
+    player.Head.face.Texture = "http://www.roblox.com/asset/?id=127959433"
+end
+)
+
+Tab2:Button("BeastMode Blue Cs",function(bool)
+local player = game.Players.LocalPlayer.Character
+
+if player:findFirstChild("Humanoid") then
+    player.Head.face.Texture = "http://www.roblox.com/asset/?id=209712379"
+end
+)
+
+Tab2:Button("BeastMode green Cs",function(bool)
+local player = game.Players.LocalPlayer.Character
+
+if player:findFirstChild("Humanoid") then
+    player.Head.face.Texture = "http://www.roblox.com/asset/?id=2225757922"
+end
+)
+
+Tab2:Button("SSHF Cs",function(bool)
+local player = game.Players.LocalPlayer.Character
+
+if player:findFirstChild("Humanoid") then
+    player.Head.face.Texture = "http://www.roblox.com/asset/?id=494290547"
+end
+)
+
 Tab2:Button("Headless Client Sided",function(bool)
     getgenv().game.Players.LocalPlayer.Character.Head.Transparency = 1
     getgenv().game.Players.LocalPlayer.Character.Head.face:Destroy()
     getgenv().game.Players.LocalPlayer.Character.Head.face:Destroy()
 end)
+
 
 Tab2:Button("Korblox Client Sided",function(bool)
 	local ply = game.Players.LocalPlayer
@@ -73,8 +114,8 @@ local garbage = {
     "run 1s seed";
     "thank you for your time";
     "you were so close!";
-    "better luck next time!";
-    "rodent";
+    "sonned!";
+    "sonny";
     "HAHA";
     "ill 5-0";
     "just quit";
@@ -237,9 +278,9 @@ Tab7:Label("Keybind")
 Tab7:Keybind("Toggle",Enum.KeyCode.RightShift,function()
     Library:Toggle()
 end)
-Tab7:Button("credits GOING#6682")
+Tab7:Button("credits GOING#6682 and zs#5105")
 
-local Tab8 = Window:Tab("animation",false)
+local Tab8 = Window:Tab("animation changer👑",false)
 
 Tab8:Button("animation changer)",function(bool)
     while true do
