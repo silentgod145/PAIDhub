@@ -5,55 +5,15 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mappl
 
 local Tab1 = Window:Tab("⭐Lock⭐",true)
 
-Tab1:Button("Silent Aim and Aim Lock hold e to aim lock doe",function(bool)
+Tab1:Button("🛀Silent Aim and Aim Lock hold e to aim lock doe🛀",function(bool)
  loadstring(game:HttpGet("https://pastebin.com/raw/M3nt5Dad" ))() 
 end)
 
-Tab1:Button("FLY (X)",function(bool)
+Tab1:Button("💈 FLY (X)",function(bool)
     loadstring(game:HttpGet("https://pastebin.com/raw/sUA9m6M6"))()
 end)
 
 local Tab2 = Window:Tab("clientside",true)
-
-Tab2:Button("Playful Cs",function(bool)
-local player = game.Players.LocalPlayer.Character
-
-if player:findFirstChild("Humanoid") then
-    player.Head.face.Texture = "http://www.roblox.com/asset/?id=2409281591"
-end
-)
-
-Tab2:Button("BeastMode red Cs",function(bool)
-local player = game.Players.LocalPlayer.Character
-
-if player:findFirstChild("Humanoid") then
-    player.Head.face.Texture = "http://www.roblox.com/asset/?id=127959433"
-end
-)
-
-Tab2:Button("BeastMode Blue Cs",function(bool)
-local player = game.Players.LocalPlayer.Character
-
-if player:findFirstChild("Humanoid") then
-    player.Head.face.Texture = "http://www.roblox.com/asset/?id=209712379"
-end
-)
-
-Tab2:Button("BeastMode green Cs",function(bool)
-local player = game.Players.LocalPlayer.Character
-
-if player:findFirstChild("Humanoid") then
-    player.Head.face.Texture = "http://www.roblox.com/asset/?id=2225757922"
-end
-)
-
-Tab2:Button("SSHF Cs",function(bool)
-local player = game.Players.LocalPlayer.Character
-
-if player:findFirstChild("Humanoid") then
-    player.Head.face.Texture = "http://www.roblox.com/asset/?id=494290547"
-end
-)
 
 Tab2:Button("Headless Client Sided",function(bool)
     getgenv().game.Players.LocalPlayer.Character.Head.Transparency = 1
@@ -72,7 +32,7 @@ Tab2:Button("Korblox Client Sided",function(bool)
 	chr.RightFoot.MeshId = "902942089"
 	chr.RightFoot.Transparency = "1"
 end)
-local Tab2 = Window:Tab("Trash talk",true)
+local Tab2 = Window:Tab("Trash talk💣",true)
  
 Tab2:Button("Trash Talk (J)",function(bool)
     local plr = game.Players.LocalPlayer
@@ -134,7 +94,7 @@ end
 
 game:GetService("UserInputService").InputBegan:connect(TrashTalk)
 end)
-local Tab4 = Window:Tab("anti and fov",true)
+local Tab4 = Window:Tab("🦽 anti and fov🦽",true)
 
 Tab4:Slider("Fov Camera",80,200,function(text)
     workspace.CurrentCamera.FieldOfView = (text)
@@ -164,7 +124,7 @@ end, {
     ["clear"] = false,
 })
 
-local Tab5 = Window:Tab("Teleports",false)
+local Tab5 = Window:Tab("Teleports🕳️",false)
 
 Tab5:Label("Teleports")
 
@@ -280,7 +240,7 @@ Tab7:Keybind("Toggle",Enum.KeyCode.RightShift,function()
 end)
 Tab7:Button("credits GOING#6682 and zs#5105")
 
-local Tab8 = Window:Tab("animation changer👑",false)
+local Tab8 = Window:Tab("animation changer",false)
 
 Tab8:Button("animation changer)",function(bool)
     while true do
