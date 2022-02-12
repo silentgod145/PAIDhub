@@ -13,7 +13,7 @@ Tab1:Button("💈 FLY (X)",function(bool)
     loadstring(game:HttpGet("https://pastebin.com/raw/sUA9m6M6"))()
 end)
 
-local Tab2 = Window:Tab("clientside",true)
+local Tab2 = Window:Tab("🧱clientside🧱",true)
 
 Tab2:Button("Headless Client Sided",function(bool)
     getgenv().game.Players.LocalPlayer.Character.Head.Transparency = 1
@@ -40,9 +40,9 @@ repeat wait() until plr.Character
 local char = plr.Character
 
 local garbage = {
-    "ur bad";
-    "macro bad";
-    "slow";
+    "give me ur 👑"
+    "bozo";
+    "🕴️";
     "my grandma has more skill than you";
     "son";
     "imagine";
@@ -172,7 +172,7 @@ Tab5:Button("mainfood",function(value)
     getgenv().game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-338.352173, 23.6826477, -297.2146, -0.0060598203, -1.03402984e-08, -0.999981582, -1.61653102e-09, 1, -1.03306892e-08, 0.999981582, 1.55389912e-09, -0.0060598203)
 end)
 
-local Tab6 = Window:Tab("speed glitch ",true)
+local Tab6 = Window:Tab("🎥speed glitch🎥 ",true)
 
 Tab6:Button("speed (z)",function(bool)
 loadstring(game:HttpGet("https://pastebin.com/raw/Wf16wRBc"))()
@@ -240,7 +240,7 @@ Tab7:Keybind("Toggle",Enum.KeyCode.RightShift,function()
 end)
 Tab7:Button("credits GOING#6682 and zs#5105")
 
-local Tab8 = Window:Tab("animation changer",false)
+local Tab8 = Window:Tab("👑animation changer👑",false)
 
 Tab8:Button("animation changer)",function(bool)
     while true do
